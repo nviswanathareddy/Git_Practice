@@ -6,6 +6,12 @@ Pre-steps:
 
 git config --global user.name "nviswanathareddy"
 git config --global user.email "viswanathareddynagireddy@gmail.com"
+git log
+
+Extra commands:
+
+git log
+git log --author "nviswanathareddy"
 
 Steps:
 
