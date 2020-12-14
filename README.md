@@ -10,6 +10,8 @@ git log
 
 Extra commands:
 
+git status
+
 git log
 git log --author "nviswanathareddy"
 
