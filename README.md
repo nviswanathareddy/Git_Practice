@@ -10,6 +10,8 @@ git log
 
 git diff
 git diff index.html
+git diff --staged test.html
+
 
 Extra commands:
 
@@ -24,7 +26,9 @@ git clone git@github.com:nviswanathareddy/Git_Practice.git
 
 nano index.html
 git add index.html
+git restore --staged test.html
 
 git commit - m "added index.html file"
 
 git push origin main
+
