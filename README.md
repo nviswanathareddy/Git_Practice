@@ -12,6 +12,9 @@ git diff
 git diff index.html
 git diff --staged test.html
 
+git remote
+git remote -v
+
 
 Extra commands:
 
