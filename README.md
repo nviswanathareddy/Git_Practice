@@ -8,6 +8,9 @@ git config --global user.name "nviswanathareddy"
 git config --global user.email "viswanathareddynagireddy@gmail.com"
 git log
 
+git diff
+git diff index.html
+
 Extra commands:
 
 git status
