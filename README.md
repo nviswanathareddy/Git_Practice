@@ -64,6 +64,11 @@ git log --oneline
 git log --author "nviswanathareddy"
 # shows the files that are committed in that particular commit
 git show --pretty="" --name-only fe038f2
+#
+git log --stat
+#
+git log -p
+
 ```
 
 ### Git Add
@@ -84,6 +89,8 @@ git commit - m "added index.html file"
 # adds and commits the file in single command
 git commit -a -m "commit message"
 git commit -am "commit message"
+#
+git commit --amend -m "commit message"
 ```
 ### Git Push
 ```bash
@@ -102,6 +109,14 @@ git branch feature
 #
 git checkout feature
 #
+git checkout -b feature-b
+#
+git branch -m feature feature-a
+#
+git branch -m
+#
+git branch -r
+#
 git branch -d feature
 #
 git branch -D feature
@@ -110,4 +125,7 @@ git diff main feature
 #
 git merge feature
 #
+git push origin feature
+#
+git push origin --delete feature
 ```
