@@ -69,8 +69,12 @@ git restore --staged test.html
 ```
 ### Git Commit
 ```bash
+# commits the changes to local repository, have to add the commit message in the editor
+git commit
 # commits the code from staging area to local repository
 git commit - m "added index.html file"
+# adds and commits the file in single command
+git commit -a -m "commit message"
 ```
 ### Git Push
 ```bash
