@@ -99,6 +99,15 @@ git branch
 git branch -v
 # creates a new branch
 git branch feature
-
-
+#
+git checkout feature
+#
+git branch -d feature
+#
+git branch -D feature
+#
+git diff main feature
+#
+git merge feature
+#
 ```
