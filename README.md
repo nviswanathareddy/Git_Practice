@@ -46,7 +46,13 @@ git remote add origin git@github.com:nviswanathareddy/Git_Practice.git
 # shows short name of remote repository
 git remote
 # shows full url
+git remote show origin
+# shows the content related to origin
 git remote -v
+#
+git rename
+# removes the remote repository url attached to origin in local repository
+git remote remove origin
 ```
 ### Git Log
 ```bash
@@ -56,6 +62,8 @@ git log
 git log --oneline
 # shows the log related to the specific author
 git log --author "nviswanathareddy"
+# shows the files that are committed in that particular commit
+git show --pretty="" --name-only fe038f2
 ```
 
 ### Git Add
@@ -75,6 +83,7 @@ git commit
 git commit - m "added index.html file"
 # adds and commits the file in single command
 git commit -a -m "commit message"
+git commit -am "commit message"
 ```
 ### Git Push
 ```bash
@@ -82,3 +91,14 @@ git commit -a -m "commit message"
 git push origin main
 ```
 # Git Branches
+
+```bash
+# shows the branches in local repository
+git branch
+# shows the branch details
+git branch -v
+# creates a new branch
+git branch feature
+
+
+```
