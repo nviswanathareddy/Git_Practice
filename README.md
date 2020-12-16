@@ -68,7 +68,6 @@ git show --pretty="" --name-only fe038f2
 git log --stat
 #
 git log -p
-
 ```
 
 ### Git Add
@@ -77,6 +76,11 @@ git log -p
 git add index.html
 # adds all the files to staging area
 git add .
+#
+git add -A
+```
+### Git Restore
+```bash
 # removes the files from staging area to working area
 git restore --staged test.html
 ```
@@ -92,6 +96,22 @@ git commit -am "commit message"
 #
 git commit --amend -m "commit message"
 ```
+### Git Reset
+```bash
+#
+git reset --soft cid
+#
+git reset --mixed cid
+#
+git reset --hard cid
+```
+### Git Revert
+```bash
+#
+git revert cid
+#
+git revert -n
+```
 ### Git Push
 ```bash
 # pushes the code from local repository to remote repository
@@ -106,6 +126,8 @@ git branch
 git branch -v
 # creates a new branch
 git branch feature
+#
+git branch -a
 #
 git checkout feature
 #
@@ -124,6 +146,8 @@ git branch -D feature
 git diff main feature
 #
 git merge feature
+#
+git branch --merged
 #
 git push origin feature
 #
