@@ -41,6 +41,18 @@ git config user.email
 
 # configuring email
 git config --global user.email "viswanathareddynagireddy@gmail.com"
+
+#
+git config --list --global
+
+#
+git config --list --local
+
+#
+git config --local --edit
+
+#
+git config --global --edit
 ```
 > ## git `diff`
 ```bash
