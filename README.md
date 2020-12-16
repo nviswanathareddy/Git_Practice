@@ -78,7 +78,7 @@ git rename
 git remote remove origin
 ```
 > ## git `log`
-```bash
+```sh
 # shows log history
 git log
 
@@ -104,7 +104,7 @@ git show
 git reflog
 ```
 > ## git `add`
-```bash
+```sh
 # adds the single file to staging area
 git add index.html
 
@@ -115,7 +115,7 @@ git add .
 git add -A
 ```
 > ## git `restore`
-```bash
+```sh
 # discards the changes in working directory
 git restore
 
@@ -129,7 +129,7 @@ git clean
 git clean -df
 ```
 > ## git `commit`
-```bash
+```sh
 # commits the changes to local repository, have to add the commit message in the editor
 git commit
 
@@ -175,7 +175,7 @@ git push origin main
 
 # Git Branches
 
-```bash
+```sh
 # shows the branches in local repository
 git branch
 
