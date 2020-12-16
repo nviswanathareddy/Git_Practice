@@ -2,10 +2,13 @@
 ## Test Repository to Test Git Practices
 
 
-> ## Git Basic
+> ## git `status`
 ```bash
 # checks the current status of the git repository
 git status
+
+#
+git status -s
 ```
 > ## git `init`
 ```bash
@@ -171,6 +174,39 @@ git push origin main
 ```
 > ## git `tags`
 ```bash
+#
+git tag
+```
+> ## git `stash`
+```bash
+#
+git stash
+
+#
+git stash save ""
+
+#
+git stash push -u
+#
+git stash list
+
+#
+git stash apply
+
+#
+git stash drop
+
+#
+git stash pop
+
+#
+git stash clear
+
+#
+git stash branch stash-branch
+
+#
+git stash show
 ```
 
 # Git Branches
@@ -220,6 +256,9 @@ git merge feature
 
 # to check what branches are merged
 git branch --merged
+
+#
+git branch merge --abort
 
 # pushes the branch to remote repository
 git push origin feature
