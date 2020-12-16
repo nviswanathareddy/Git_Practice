@@ -38,6 +38,10 @@ git diff
 git diff index.html
 # shows edited content in staging area
 git diff --staged test.html
+#
+git diff cid cid
+#
+git diff HEAD HEAD~1
 ```
 ### Git Remote
 ```bash
@@ -68,8 +72,11 @@ git show --pretty="" --name-only fe038f2
 git log --stat
 #
 git log -p
+#
+git show
+#
+git reflog
 ```
-
 ### Git Add
 ```bash
 # adds the single file to staging area
@@ -81,8 +88,14 @@ git add -A
 ```
 ### Git Restore
 ```bash
+#
+git restore
 # removes the files from staging area to working area
 git restore --staged test.html
+#
+git clean
+#
+git clean -df
 ```
 ### Git Commit
 ```bash
@@ -92,6 +105,7 @@ git commit
 git commit - m "added index.html file"
 # adds and commits the file in single command
 git commit -a -m "commit message"
+# or
 git commit -am "commit message"
 #
 git commit --amend -m "commit message"
