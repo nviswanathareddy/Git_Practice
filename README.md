@@ -1,30 +1,30 @@
 # Git_Practice
-### Test Repository to Test Git Practices
+## Test Repository to Test Git Practices
 
 
-### Git Basic
+> ## Git Basic
 ```bash
 # checks the current status of the git repository
 git status
 ```
-### Git Init
+> ## git `init`
 ```bash
 # Initializes empty git repository to in the current folder
 git init
 ```
-### Git Bare
+> ## git `bare`
 ```bash
 # initializes the bare repository (remote)
 git init --bare
 ```
-### Git Clone
+> ## git `clone`
 ```bash
 # clones the remote repository to local
 git clone git@github.com:nviswanathareddy/Git_Practice.git
 ```
-### Git Configure username and email
+> ## git `config`
 ```bash
-# lists the cofiguaration file
+# lists the configuration file
 git config --list
 
 # configuring username
@@ -39,7 +39,7 @@ git config user.email
 # configuring email
 git config --global user.email "viswanathareddynagireddy@gmail.com"
 ```
-### Git Diff
+> ## git `diff`
 ```bash
 # shows all the edited files in working area
 git diff
@@ -57,7 +57,7 @@ git diff cid cid
 git diff HEAD HEAD~1
 
 ```
-### Git Remote
+> ## git `remote`
 ```bash
 # adding the remote repository to local repository
 git remote add origin git@github.com:nviswanathareddy/Git_Practice.git
@@ -77,7 +77,7 @@ git rename
 # removes the remote repository url attached to origin in local repository
 git remote remove origin
 ```
-### Git Log
+> ## git `log`
 ```bash
 # shows log history
 git log
@@ -103,7 +103,7 @@ git show
 #
 git reflog
 ```
-### Git Add
+> ## git `add`
 ```bash
 # adds the single file to staging area
 git add index.html
@@ -114,7 +114,7 @@ git add .
 # adds the total git repository to staging area
 git add -A
 ```
-### Git Restore
+> ## git `restore`
 ```bash
 # discards the changes in working directory
 git restore
@@ -128,7 +128,7 @@ git clean
 # removes the un tracked files for directories from working area 
 git clean -df
 ```
-### Git Commit
+> ## git `commit`
 ```bash
 # commits the changes to local repository, have to add the commit message in the editor
 git commit
@@ -145,7 +145,7 @@ git commit -am "commit message"
 # re writes the commit message
 git commit --amend -m "commit message"
 ```
-### Git Reset
+> ## git `reset`
 ```bash
 #
 git reset --soft cid
@@ -156,7 +156,7 @@ git reset --mixed cid
 #
 git reset --hard cid
 ```
-### Git Revert
+> ## git `revert`
 ```bash
 #
 git revert cid
@@ -164,11 +164,15 @@ git revert cid
 #
 git revert -n
 ```
-### Git Push
+> ## git `push`
 ```bash
 # pushes the code from local repository to remote repository
 git push origin main
 ```
+> ## git `tags`
+```bash
+```
+
 # Git Branches
 
 ```bash
