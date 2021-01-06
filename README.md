@@ -71,6 +71,9 @@ git diff cid cid
 # compares the changes between two latest commit id's
 git diff HEAD HEAD~1
 
+#
+git diff-tree -r cid
+
 ```
 > ## git `remote`
 ```bash
@@ -136,6 +139,12 @@ git restore
 
 # removes the files from staging area to working area
 git restore --staged test.html
+
+#
+git rm --cached styles.css
+
+#
+git rm -f styles.css
 
 # removes un tracked files from working area
 git clean
